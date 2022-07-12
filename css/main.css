@@ -8,6 +8,10 @@ rgb(201,232,242)
 body{
     margin: 0%;
 }
+
+*{
+    margin: 0;
+}
 /******************************
 
 First section- Navigation bar
@@ -86,4 +90,51 @@ Body- The properties that apply to all the section-container except the footer
     display: flex;
     flex-direction: column;
     width: 50vw;
+}
+
+.section1{
+    display: flex;
+    background-color: rgb(201,232,242);
+    height: 100vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.section-div{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+}
+
+.section-div-1{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.section-div-2{
+    margin-top: 80px;
+}
+.section1 div img{
+    height:70%;
+    width: auto;
+    
+}
+
+.btn{
+    background-color: #F9CACA;
+    border-radius: 25px;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
 }
