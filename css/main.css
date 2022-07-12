@@ -5,7 +5,9 @@ rgb(201,232,242)
 
 
 *****************/
-
+body{
+    margin: 0%;
+}
 /******************************
 
 First section- Navigation bar
@@ -64,4 +66,24 @@ First section- Navigation bar
     font-weight: 700;
     font-size: 24px;
     list-style: none;
+}
+
+/***********************
+Body- The properties that apply to all the section-container except the footer
+************************/
+.buying,
+.renting,
+.selling,
+.about{
+    height: 100vh;
+    display: flex;
+
+}
+
+/**********SECTION-1: Buying*********/
+.buying{
+    background-color:rgb(201,232,242);
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
 }
