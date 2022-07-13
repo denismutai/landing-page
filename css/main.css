@@ -194,9 +194,42 @@ SECTION2- Buying, selling, renting
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
     text-align: center;
 }
 
 .section2 div img{
     height: 70%;
+}
+
+
+/**********************
+SECTION THREE
+**********************/
+
+.section3{
+    height: 100vh;
+    background:linear-gradient(#C5E4F2, #EBF5FA);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.section3 div{
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.section3 div img {
+    height: 95%;
+    width: auto;
+
+}
+
+#section3div2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
 }
